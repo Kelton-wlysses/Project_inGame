@@ -1,0 +1,157 @@
+html, body, main, figure, img, div, h2, p, a, input{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body{
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    margin-top: 58px;
+    color: #412554;
+
+    text-align: center;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #412554;
+
+    text-align: center;
+}
+
+form{
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: none;
+}
+
+input{
+    padding-left: 15px ;
+    margin-bottom: 15px;
+    width: 317px;
+    height: 56px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(199, 199, 199);
+}
+
+input:hover::placeholder{
+    padding-left: 8px;
+    transition: all 0.4s;
+}
+
+
+div.butao{
+    display: flex;
+    flex-direction: column;
+}
+
+a.recuperarSenha{
+    color: #412554;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    text-align: end;
+    margin-top: 10px;
+}
+
+a.buttonActive{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: white;
+
+    background-color: #008B52;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 18px;
+
+    text-align: center;
+}
+
+a.buttonActive:hover{
+    filter: brightness(1.15);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+p{
+    margin: 43px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #7D7D7D;
+    text-align: center;
+}
+
+.redesSociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonOutlined{
+    box-sizing: border-box;
+    border: 1px solid #7D7D7D;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 154px;
+    height: 47px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google, .facebook{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #412554;
+    margin-left: 10px;
+}
+
+.cadastrar{
+    display: block;
+    color: #412554;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    text-align: center;
+
+    margin-top: 150px;
+}
+
